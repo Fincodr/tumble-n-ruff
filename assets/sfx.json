@@ -1,0 +1,468 @@
+{
+  "source": "Original RJP1 World 1 effects",
+  "sampleRate": 22050,
+  "songSha256": "e787e9f7db69d1d619ccf00a65e331019a761b02cdfeb2e98b2f6d6c72725641",
+  "samplesSha256": "5a69f1f7fe42cefb34ab01d6420a1ecf2de29932fc9c6cef7df45f1c678b8f6e",
+  "effects": {
+    "61": {
+      "file": "sfx/3d.wav",
+      "frames": 23814,
+      "seconds": 1.08,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 31,
+          "period": 508
+        }
+      ]
+    },
+    "62": {
+      "file": "sfx/3e.wav",
+      "frames": 21504,
+      "seconds": 0.9752,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 31,
+          "period": 453
+        },
+        {
+          "tick": 6,
+          "instrument": 31,
+          "period": 381
+        }
+      ]
+    },
+    "63": {
+      "file": "sfx/3f.wav",
+      "frames": 14726,
+      "seconds": 0.6678,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 32,
+          "period": 339
+        }
+      ]
+    },
+    "64": {
+      "file": "sfx/40.wav",
+      "frames": 21582,
+      "seconds": 0.9788,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 31,
+          "period": 762
+        }
+      ]
+    },
+    "65": {
+      "file": "sfx/41.wav",
+      "frames": 16576,
+      "seconds": 0.7517,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 33,
+          "period": 678
+        }
+      ]
+    },
+    "66": {
+      "file": "sfx/42.wav",
+      "frames": 10268,
+      "seconds": 0.4657,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 34,
+          "period": 558
+        }
+      ]
+    },
+    "67": {
+      "file": "sfx/43.wav",
+      "frames": 11941,
+      "seconds": 0.5415,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 35,
+          "period": 856
+        }
+      ]
+    },
+    "68": {
+      "file": "sfx/44.wav",
+      "frames": 4011,
+      "seconds": 0.1819,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 35,
+          "period": 160
+        },
+        {
+          "tick": 3,
+          "instrument": 35,
+          "period": 180
+        }
+      ]
+    },
+    "69": {
+      "file": "sfx/45.wav",
+      "frames": 7007,
+      "seconds": 0.3178,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 33,
+          "period": 135
+        },
+        {
+          "tick": 4,
+          "instrument": 33,
+          "period": 143
+        },
+        {
+          "tick": 8,
+          "instrument": 33,
+          "period": 135
+        }
+      ]
+    },
+    "70": {
+      "file": "sfx/46.wav",
+      "frames": 10470,
+      "seconds": 0.4748,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 36,
+          "period": 320
+        },
+        {
+          "tick": 4,
+          "instrument": 36,
+          "period": 269
+        },
+        {
+          "tick": 8,
+          "instrument": 36,
+          "period": 285
+        }
+      ]
+    },
+    "71": {
+      "file": "sfx/47.wav",
+      "frames": 15996,
+      "seconds": 0.7254,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 37,
+          "period": 428
+        },
+        {
+          "tick": 4,
+          "instrument": 37,
+          "period": 285
+        },
+        {
+          "tick": 8,
+          "instrument": 37,
+          "period": 339
+        },
+        {
+          "tick": 12,
+          "instrument": 37,
+          "period": 214
+        },
+        {
+          "tick": 20,
+          "instrument": 38,
+          "period": 339
+        },
+        {
+          "tick": 24,
+          "instrument": 38,
+          "period": 214
+        }
+      ]
+    },
+    "72": {
+      "file": "sfx/48.wav",
+      "frames": 22112,
+      "seconds": 1.0028,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 39,
+          "period": 856
+        }
+      ]
+    },
+    "73": {
+      "file": "sfx/49.wav",
+      "frames": 11907,
+      "seconds": 0.54,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 40,
+          "period": 508
+        },
+        {
+          "tick": 3,
+          "instrument": 40,
+          "period": 740
+        },
+        {
+          "tick": 6,
+          "instrument": 40,
+          "period": 1070
+        }
+      ]
+    },
+    "74": {
+      "file": "sfx/4a.wav",
+      "frames": 8184,
+      "seconds": 0.3712,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 41,
+          "period": 856
+        }
+      ]
+    },
+    "75": {
+      "file": "sfx/4b.wav",
+      "frames": 7056,
+      "seconds": 0.32,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 42,
+          "period": 143
+        },
+        {
+          "tick": 2,
+          "instrument": 42,
+          "period": 159
+        },
+        {
+          "tick": 4,
+          "instrument": 42,
+          "period": 124
+        },
+        {
+          "tick": 6,
+          "instrument": 42,
+          "period": 157
+        }
+      ]
+    },
+    "76": {
+      "file": "sfx/4c.wav",
+      "frames": 7755,
+      "seconds": 0.3517,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 43,
+          "period": 527
+        }
+      ]
+    },
+    "77": {
+      "file": "sfx/4d.wav",
+      "frames": 8419,
+      "seconds": 0.3818,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 43,
+          "period": 843
+        }
+      ]
+    },
+    "78": {
+      "file": "sfx/4e.wav",
+      "frames": 20667,
+      "seconds": 0.9373,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 5,
+          "period": 475
+        },
+        {
+          "tick": 12,
+          "instrument": 44,
+          "period": 844
+        }
+      ]
+    },
+    "79": {
+      "file": "sfx/4f.wav",
+      "frames": 35185,
+      "seconds": 1.5957,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 36,
+          "period": 856
+        },
+        {
+          "tick": 4,
+          "instrument": 36,
+          "period": 720
+        },
+        {
+          "tick": 8,
+          "instrument": 36,
+          "period": 640
+        },
+        {
+          "tick": 12,
+          "instrument": 36,
+          "period": 720
+        },
+        {
+          "tick": 16,
+          "instrument": 36,
+          "period": 640
+        },
+        {
+          "tick": 20,
+          "instrument": 36,
+          "period": 604
+        },
+        {
+          "tick": 24,
+          "instrument": 36,
+          "period": 640
+        },
+        {
+          "tick": 28,
+          "instrument": 36,
+          "period": 604
+        },
+        {
+          "tick": 32,
+          "instrument": 36,
+          "period": 570
+        },
+        {
+          "tick": 36,
+          "instrument": 36,
+          "period": 480
+        },
+        {
+          "tick": 40,
+          "instrument": 36,
+          "period": 570
+        },
+        {
+          "tick": 44,
+          "instrument": 36,
+          "period": 480
+        },
+        {
+          "tick": 48,
+          "instrument": 36,
+          "period": 428
+        },
+        {
+          "tick": 52,
+          "instrument": 40,
+          "period": 856
+        },
+        {
+          "tick": 56,
+          "instrument": 40,
+          "period": 923
+        }
+      ]
+    },
+    "80": {
+      "file": "sfx/50.wav",
+      "frames": 6423,
+      "seconds": 0.2913,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 45,
+          "period": 720
+        },
+        {
+          "tick": 2,
+          "instrument": 45,
+          "period": 990
+        }
+      ]
+    },
+    "81": {
+      "file": "sfx/51.wav",
+      "frames": 6082,
+      "seconds": 0.2758,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 35,
+          "period": 428
+        }
+      ]
+    },
+    "82": {
+      "file": "sfx/52.wav",
+      "frames": 8026,
+      "seconds": 0.364,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 35,
+          "period": 570
+        }
+      ]
+    },
+    "83": {
+      "file": "sfx/53.wav",
+      "frames": 9505,
+      "seconds": 0.4311,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 35,
+          "period": 678
+        }
+      ]
+    },
+    "84": {
+      "file": "sfx/54.wav",
+      "frames": 10057,
+      "seconds": 0.4561,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 46,
+          "period": 762
+        }
+      ]
+    },
+    "85": {
+      "file": "sfx/55.wav",
+      "frames": 6683,
+      "seconds": 0.3031,
+      "notes": [
+        {
+          "tick": 0,
+          "instrument": 47,
+          "period": 246
+        }
+      ]
+    }
+  }
+}

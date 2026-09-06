@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1115">
+  <meta name="description" content="A four-world WebGL conversion of Ruff 'n' Tumble, using the original extracted maps, artwork, music, and sound effects.">
+  <title>Ruff 'n' Tumble — WebGL</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <main>
+    <header class="heading">
+      <div><h1>RUFF <span>’N’</span> TUMBLE</h1><p><span id="world-name">THE FANTASY FOREST</span> <span> / </span> <span id="stage">WORLD 1–1</span></p></div>
+      <div class="tools">
+        <button id="sound" aria-pressed="false" title="Toggle music">Music off</button>
+        <button id="sfx" aria-pressed="true" title="Toggle original sound effects">SFX on</button>
+        <button id="fullscreen" aria-pressed="false" title="Fill the screen with the game">Fullscreen</button>
+      </div>
+    </header>
+    <div class="game-settings">
+      <label class="stage-picker">Difficulty <select id="difficulty" aria-label="Game difficulty"><option value="easy">Easy · 4× health</option><option value="normal">Normal</option></select></label>
+      <label class="stage-picker">Practice stage <select id="stage-select" disabled aria-label="Start a new run at a selected stage"></select></label>
+      <label class="stage-picker crt-setting"><input id="crt" type="checkbox" aria-controls="crt-scanlines"> CRT scanlines</label>
+    </div>
+    <p id="audio-error" class="audio-error" role="status" hidden></p>
+    <section id="game-shell" aria-label="Ruff 'n' Tumble game">
+      <div class="immersive-toolbar" aria-label="Fullscreen controls">
+        <span>RUFF ’N’ TUMBLE</span>
+        <button id="immersive-expand" title="Hide browser controls using fullscreen" hidden>Fullscreen</button>
+        <button id="immersive-pause" disabled>Pause</button>
+        <button id="immersive-exit" aria-label="Exit fullscreen" title="Return to the page">Exit</button>
+      </div>
+      <div class="objectives">
+        <div class="marbles" aria-label="Marbles remaining">
+          <span><img src="./assets/marble-0.png" alt="First marble colour"><output id="marble-0">3</output></span>
+          <span><img src="./assets/marble-1.png" alt="Second marble colour"><output id="marble-1">3</output></span>
+          <span><img src="./assets/marble-2.png" alt="Third marble colour"><output id="marble-2">3</output></span>
+        </div>
+        <span id="objective">Collect marbles to unlock the exit</span>
+        <span id="keys">Keys 0 / 0</span><strong id="weapon">Machine gun</strong>
+      </div>
+      <div class="hud" aria-label="Player status">
+        <div class="hud-group"><span class="hud-label">RUFF</span><output id="lives">× 3</output></div>
+        <div class="hud-group energy"><span class="hud-label">ENERGY</span><meter id="energy" min="0" max="384" value="384">384</meter></div>
+        <div class="hud-group"><span class="hud-label">HEALTH</span><output id="health" aria-label="6 health">♥ ♥ ♥ ♥ ♥ ♥</output></div>
+        <div class="hud-group"><span class="hud-label">COINS</span><output id="coins">00</output></div>
+        <div class="hud-group score"><span class="hud-label">SCORE</span><output id="score">000000</output></div>
+      </div>
+      <div class="game-play">
+        <div class="screen-space">
+          <div class="screen">
+            <canvas id="game" width="320" height="200" tabindex="0" aria-label="Game screen. Arrow keys or A and D to move; Space to jump; J or Control to fire."></canvas>
+            <div id="crt-scanlines" class="crt-scanlines" aria-hidden="true" hidden></div>
+            <div id="boss-hud" hidden><span id="boss-name">Boss</span><meter id="boss-energy" min="0" max="160" value="160" aria-label="Boss health">160</meter></div>
+            <div class="overlay" id="overlay">
+              <div class="overlay-card">
+                <p class="eyebrow" id="overlay-kicker">WORLD 1–1</p>
+                <h2 id="overlay-title">The Fantasy Forest</h2>
+                <p id="overlay-message" role="status">Loading the original artwork…</p>
+                <button id="start" disabled>Loading…</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="touch-controls" aria-label="Touch controls">
+          <div><button data-input="4" aria-label="Move left">←</button><button data-input="8" aria-label="Move right">→</button><button data-input="2" aria-label="Crouch or climb down">↓</button><button data-input="1" aria-label="Climb or aim up">↑</button></div>
+          <div><button data-input="16">Jump</button><button class="fire" data-input="128">Fire</button></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p><kbd>←</kbd> <kbd>→</kbd> Move <span>·</span> <kbd>Space</kbd> Jump <span>·</span> <kbd>J</kbd> Fire <span>·</span> <kbd>↑</kbd> <kbd>↓</kbd> Climb / aim</p>
+      <div><button id="pause">Pause <kbd>P</kbd></button><button id="restart">Restart <kbd>R</kbd></button><button id="collision" aria-pressed="false">Collision <kbd>F2</kbd></button></div>
+    </footer>
+    <p class="build-note">Four-world conversion · Original maps, artwork, animation, and sound effects · Enemy and boss behavior under refinement</p>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
